@@ -52,13 +52,11 @@
   <text x="336" y="224" class="ink" font-size="12" letter-spacing="1">{{buildStatus}}</text>
 
   <text x="628" y="95" class="muted" font-size="12" letter-spacing="1.1">ON THE BENCH</text>
-  <path d="M628 147H928 M628 187H928" class="rule"/>
-  <text x="628" y="132" class="ink" font-size="15" font-weight="600">{{bench0Name}}</text>
-  <text x="928" y="132" text-anchor="end" class="ink" font-size="12">{{bench0Status}}</text>
-  <text x="628" y="172" class="ink" font-size="15" font-weight="600">{{bench1Name}}</text>
-  <text x="928" y="172" text-anchor="end" class="muted" font-size="12">{{bench1Status}}</text>
-  <text x="628" y="212" class="muted" font-size="15">{{bench2Name}}</text>
-  <text x="928" y="212" text-anchor="end" class="muted" font-size="15">{{bench2Status}}</text>
+  <path d="M628 170H928" class="rule"/>
+  <text x="628" y="144" class="ink" font-size="15" font-weight="600">{{bench0Name}}</text>
+  <text x="928" y="144" text-anchor="end" class="ink" font-size="12">{{bench0Status}}</text>
+  <text x="628" y="196" class="ink" font-size="15" font-weight="600">{{bench1Name}}</text>
+  <text x="928" y="196" text-anchor="end" class="muted" font-size="12">{{bench1Status}}</text>
 
   <text x="32" y="282" class="muted" font-size="12" letter-spacing="1.1">CURRENT RABBIT HOLE</text>
   <text x="32" y="311" class="ink" font-size="18" font-weight="600">{{rabbitTitle}}</text>

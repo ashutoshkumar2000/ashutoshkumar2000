@@ -1,5 +1,5 @@
 // No install or network access needed. Content: ../garage.json; layout: ./garage.svg.template.
-// The approved layout has four modes, three bench rows and three offline labels.
+// The approved layout has four modes, two bench rows and three offline labels.
 import { readFile, writeFile } from 'node:fs/promises';
 
 const root = new URL('../', import.meta.url);
@@ -47,7 +47,7 @@ try {
   const mode = upper(text(data.ride_mode, 'ride_mode', 7));
   if (!modes.includes(mode)) throw new Error('ride_mode: choose one of ride_modes.');
   const inactive = modes.filter(value => value !== mode);
-  const bench = list(data.on_the_bench, 'on_the_bench', 3).map((item, i) => ({
+  const bench = list(data.on_the_bench, 'on_the_bench', 2).map((item, i) => ({
     name: text(item?.name, `on_the_bench[${i}].name`, 12),
     status: text(item?.status, `on_the_bench[${i}].status`, 18)
   }));

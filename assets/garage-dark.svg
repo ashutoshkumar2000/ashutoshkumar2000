@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title description">
   <title id="title">Ashutosh Kumar's garage</title>
-  <desc id="description">Motorcycle-inspired engineering workbench. Ride mode: Build; other modes: Explore, Learn, Ride. Current build: Forge, a cross-platform local AI node manager, active. On the bench: Forge active, Kubera in development, Next unknown. Current rabbit hole: local AI infrastructure — runtimes, node discovery, local networks. Offline mode: motorcycles, long rides, reading interesting projects.</desc>
+  <desc id="description">Motorcycle-inspired engineering workbench. Ride mode: Build; other modes: Explore, Learn, Ride. Current build: Forge, a cross-platform local AI node manager, active. On the bench: Forge active, Kubera in development. Current rabbit hole: local AI infrastructure — runtimes, node discovery, LAN. Offline mode: motorcycles, long rides, reading how things are built.</desc>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
     .ink { fill: #F3EDE2; }
@@ -52,18 +52,16 @@
   <text x="336" y="224" class="ink" font-size="12" letter-spacing="1">ACTIVE</text>
 
   <text x="628" y="95" class="muted" font-size="12" letter-spacing="1.1">ON THE BENCH</text>
-  <path d="M628 147H928 M628 187H928" class="rule"/>
-  <text x="628" y="132" class="ink" font-size="15" font-weight="600">FORGE</text>
-  <text x="928" y="132" text-anchor="end" class="ink" font-size="12">ACTIVE</text>
-  <text x="628" y="172" class="ink" font-size="15" font-weight="600">KUBERA</text>
-  <text x="928" y="172" text-anchor="end" class="muted" font-size="12">IN DEVELOPMENT</text>
-  <text x="628" y="212" class="muted" font-size="15">NEXT</text>
-  <text x="928" y="212" text-anchor="end" class="muted" font-size="15">?</text>
+  <path d="M628 170H928" class="rule"/>
+  <text x="628" y="144" class="ink" font-size="15" font-weight="600">FORGE</text>
+  <text x="928" y="144" text-anchor="end" class="ink" font-size="12">ACTIVE</text>
+  <text x="628" y="196" class="ink" font-size="15" font-weight="600">KUBERA</text>
+  <text x="928" y="196" text-anchor="end" class="muted" font-size="12">IN DEVELOPMENT</text>
 
   <text x="32" y="282" class="muted" font-size="12" letter-spacing="1.1">CURRENT RABBIT HOLE</text>
   <text x="32" y="311" class="ink" font-size="18" font-weight="600">LOCAL AI INFRASTRUCTURE</text>
-  <text x="32" y="337" class="muted" font-size="12">RUNTIMES / NODE DISCOVERY / LOCAL NETWORKS</text>
+  <text x="32" y="337" class="muted" font-size="12">RUNTIMES / NODE DISCOVERY / LAN</text>
   <text x="628" y="282" class="muted" font-size="12" letter-spacing="1.1">OFFLINE MODE</text>
   <text x="628" y="311" class="ink" font-size="14">MOTORCYCLES / LONG RIDES</text>
-  <text x="628" y="337" class="muted" font-size="12">READING INTERESTING PROJECTS</text>
+  <text x="628" y="337" class="muted" font-size="12">READING HOW THINGS ARE BUILT</text>
 </svg>

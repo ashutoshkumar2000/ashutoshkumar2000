@@ -19,7 +19,7 @@ Garage maintenance (local; no npm install needed):
 Edit garage.json: current_build, rabbit_hole, ride_mode, on_the_bench, offline_mode.
 Run npm run profile; commit the data and both generated SVGs together.
 npm run profile:check verifies generated assets without changing files.
-Layout: scripts/garage.svg.template. Fixed slots: 4 modes, 3 bench rows, 3 offline labels.
+Layout: scripts/garage.svg.template. Fixed slots: 4 modes, 2 bench rows, 3 offline labels.
 Descriptions wrap to two lines; the generator rejects content that exceeds the layout.
 -->
 <picture>
