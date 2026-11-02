@@ -4,8 +4,6 @@
   <img alt="Ashutosh Kumar — Engineering Node. Lead Software Engineer, BLR · India. Backend, full-stack, systems. Online. Connected to Forge, Kubera, and what's next." src="./assets/ak-node-light.svg" width="960">
 </picture>
 
-## Hey, I'm Ashutosh.
-
 **I like knowing how the whole thing works.**
 
 I work across backend systems, full-stack development, infrastructure, and the pieces between them.
