@@ -1,0 +1,19 @@
+{
+  "current_build": {
+    "name": "Forge",
+    "description": "Cross-platform local AI node manager",
+    "status": "ACTIVE"
+  },
+  "ride_mode": "BUILD",
+  "ride_modes": ["BUILD", "EXPLORE", "LEARN", "RIDE"],
+  "on_the_bench": [
+    { "name": "Forge", "status": "ACTIVE" },
+    { "name": "Kubera", "status": "IN DEVELOPMENT" },
+    { "name": "Next", "status": "?" }
+  ],
+  "rabbit_hole": {
+    "title": "Local AI infrastructure",
+    "topics": ["runtimes", "node discovery", "local networks"]
+  },
+  "offline_mode": ["motorcycles", "long rides", "reading interesting projects"]
+}

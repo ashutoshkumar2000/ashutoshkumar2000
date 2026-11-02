@@ -13,3 +13,19 @@ I work across backend systems, full-stack development, infrastructure, and the p
 When I'm away from code, I'm usually reading about some interesting project, exploring how something was built, or obsessing over motorcycles. 🏍️
 
 [Portfolio ↗](https://ashutoshkumar2000.github.io/) · [LinkedIn ↗](https://www.linkedin.com/in/ashutosh-kumar-58197a153)
+
+<br>
+
+<!--
+Garage maintenance (local; no npm install needed):
+Edit garage.json: current_build, rabbit_hole, ride_mode, on_the_bench, offline_mode.
+Run npm run profile; commit the data and both generated SVGs together.
+npm run profile:check verifies generated assets without changing files.
+Layout: scripts/garage.svg.template. Fixed slots: 4 modes, 3 bench rows, 3 offline labels.
+Descriptions wrap to two lines; the generator rejects content that exceeds the layout.
+-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/garage-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/garage-light.svg">
+  <img alt="Ashutosh Kumar's garage — current projects, engineering interests, and motorcycle-inspired build modes." src="./assets/garage-light.svg" width="960">
+</picture>

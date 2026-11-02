@@ -1,0 +1,8 @@
+{
+  "name": "ashutoshkumar2000-profile",
+  "private": true,
+  "scripts": {
+    "profile": "node scripts/generate-garage.mjs",
+    "profile:check": "node scripts/generate-garage.mjs --check"
+  }
+}
