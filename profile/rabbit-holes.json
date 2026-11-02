@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "title": "Local AI runtimes",
+      "status": "OPEN",
+      "note": "how runtimes expose models, memory and capabilities"
+    },
+    {
+      "title": "Motorcycle telemetry",
+      "status": "CURIOUS",
+      "note": "sensors, ECUs, CAN bus and what the machine is actually saying"
+    },
+    {
+      "title": "Small databases",
+      "status": "QUEUED",
+      "note": "storage engines, indexes and how data survives"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title description">
+  <title id="title">Ashutosh Kumar — rabbit_holes.log</title>
+  <desc id="description">A curiosity backlog of questions to explore, not claims of expertise. 01. Local AI runtimes — OPEN: how runtimes expose models, memory and capabilities. 02. Motorcycle telemetry — CURIOUS: sensors, ECUs, CAN bus and what the machine is actually saying. 03. Small databases — QUEUED: storage engines, indexes and how data survives.</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .ink { fill: #F3EDE2; }
+    .muted { fill: #8B949E; }
+    .rule { stroke: #30363D; fill: none; }
+    .marker { fill: #C7351D; }
+  </style>
+
+  <!-- Static field notes: no motion, including under reduced-motion preferences. -->
+  <rect width="960" height="220" rx="6" fill="#0D1117"/>
+  <path d="M32 55H928 M72 115H928 M72 167H928" class="rule"/>
+  <text x="32" y="35" class="ink" font-size="15" font-weight="600" letter-spacing=".6">rabbit_holes.log</text>
+  <text x="928" y="35" text-anchor="end" class="muted" font-size="12" letter-spacing="1.1">CURIOSITY / NOTES</text>
+
+  <text x="32" y="80" class="muted" font-size="12">01</text>
+  <rect x="59" y="68" width="2" height="12" class="marker" opacity="1"/>
+  <text x="72" y="80" class="ink" font-size="16" font-weight="600" letter-spacing=".4">LOCAL AI RUNTIMES</text>
+  <text x="928" y="80" text-anchor="end" class="muted" font-size="12">OPEN</text>
+  <text x="72" y="101" class="muted" font-size="14">how runtimes expose models, memory and capabilities</text>
+
+  <text x="32" y="132" class="muted" font-size="12">02</text>
+  <rect x="59" y="120" width="2" height="12" class="marker" opacity="0"/>
+  <text x="72" y="132" class="ink" font-size="16" font-weight="600" letter-spacing=".4">MOTORCYCLE TELEMETRY</text>
+  <text x="928" y="132" text-anchor="end" class="muted" font-size="12">CURIOUS</text>
+  <text x="72" y="153" class="muted" font-size="14">sensors, ECUs, CAN bus and what the machine is actually saying</text>
+
+  <text x="32" y="184" class="muted" font-size="12">03</text>
+  <rect x="59" y="172" width="2" height="12" class="marker" opacity="0"/>
+  <text x="72" y="184" class="ink" font-size="16" font-weight="600" letter-spacing=".4">SMALL DATABASES</text>
+  <text x="928" y="184" text-anchor="end" class="muted" font-size="12">QUEUED</text>
+  <text x="72" y="205" class="muted" font-size="14">storage engines, indexes and how data survives</text>
+</svg>

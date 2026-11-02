@@ -27,3 +27,18 @@ Descriptions wrap to two lines; the generator rejects content that exceeds the l
   <source media="(prefers-color-scheme: light)" srcset="./assets/garage-light.svg">
   <img alt="Ashutosh Kumar's garage — current projects, engineering interests, and motorcycle-inspired build modes." src="./assets/garage-light.svg" width="960">
 </picture>
+
+<br>
+
+<!--
+Rabbit-hole maintenance: edit profile/rabbit-holes.json, then npm run profile:rabbit-holes.
+No npm install needed. Commit the data and both generated SVGs together.
+Check without writing: npm run profile:rabbit-holes:check.
+Layout: scripts/rabbit-holes.svg.template. Three records; titles ≤48 characters, notes ≤90.
+Statuses: OPEN / CURIOUS / QUEUED, with at most one OPEN. Notes stay at 14px; shorten long copy.
+-->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/rabbit-holes-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/rabbit-holes-light.svg">
+  <img alt="Ashutosh Kumar's rabbit_holes.log — a curiosity backlog of questions and reading notes, with numbered records and exploration states." src="./assets/rabbit-holes-light.svg" width="960">
+</picture>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title description">
+  <title id="title">Ashutosh Kumar — rabbit_holes.log</title>
+  <desc id="description">{{description}}</desc>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .ink { fill: {{ink}}; }
+    .muted { fill: {{muted}}; }
+    .rule { stroke: {{rule}}; fill: none; }
+    .marker { fill: {{accent}}; }
+  </style>
+
+  <!-- Static field notes: no motion, including under reduced-motion preferences. -->
+  <rect width="960" height="220" rx="6" fill="{{background}}"/>
+  <path d="M32 55H928 M72 115H928 M72 167H928" class="rule"/>
+  <text x="32" y="35" class="ink" font-size="15" font-weight="600" letter-spacing=".6">rabbit_holes.log</text>
+  <text x="928" y="35" text-anchor="end" class="muted" font-size="12" letter-spacing="1.1">CURIOSITY / NOTES</text>
+
+  <text x="32" y="80" class="muted" font-size="12">01</text>
+  <rect x="59" y="68" width="2" height="12" class="marker" opacity="{{marker0}}"/>
+  <text x="72" y="80" class="ink" font-size="16" font-weight="600" letter-spacing=".4">{{title0}}</text>
+  <text x="928" y="80" text-anchor="end" class="muted" font-size="12">{{status0}}</text>
+  <text x="72" y="101" class="muted" font-size="14">{{note0}}</text>
+
+  <text x="32" y="132" class="muted" font-size="12">02</text>
+  <rect x="59" y="120" width="2" height="12" class="marker" opacity="{{marker1}}"/>
+  <text x="72" y="132" class="ink" font-size="16" font-weight="600" letter-spacing=".4">{{title1}}</text>
+  <text x="928" y="132" text-anchor="end" class="muted" font-size="12">{{status1}}</text>
+  <text x="72" y="153" class="muted" font-size="14">{{note1}}</text>
+
+  <text x="32" y="184" class="muted" font-size="12">03</text>
+  <rect x="59" y="172" width="2" height="12" class="marker" opacity="{{marker2}}"/>
+  <text x="72" y="184" class="ink" font-size="16" font-weight="600" letter-spacing=".4">{{title2}}</text>
+  <text x="928" y="184" text-anchor="end" class="muted" font-size="12">{{status2}}</text>
+  <text x="72" y="205" class="muted" font-size="14">{{note2}}</text>
+</svg>
